@@ -844,7 +844,14 @@ handleMove = (data) => {
               <li>(ii) A piece may jump over a single adjacent piece of any colour, horizontally, vertically or diagonally, into the empty square beyond. Multiple jump over is allowable, as long as it is consistent.</li>
               <li>(iii) The game is over when a player has moved all of his pieces into his opponent's marked starting positions</li>
             </ul>
-        </div>
+       
+	    <a className="App-link"
+	       href="https://react.js.org"
+	       target="_blank"
+	       rel="noopener noreferrer" >
+	         Learn React
+	      </a>
+	    </div>
 
         
       </div>
