@@ -16,7 +16,7 @@ pipeline {
         }
     stage('Test') { 
             steps {
-                sh 'bash run.sh npm run test' 
+                sh 'bash run.sh npm test' 
             }
         }    
     }
