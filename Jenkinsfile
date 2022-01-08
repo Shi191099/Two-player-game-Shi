@@ -16,7 +16,7 @@ pipeline {
         }
     stage('Test') { 
             steps {
-                sh ' set +e' 
+                sh ' npx test' 
             }
         }    
     }
